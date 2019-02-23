@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('../Downloads/titanic.csv', #Абсолютный или относительный путь до файла
+df = pd.read_csv('../data/titanic.csv', #Абсолютный или относительный путь до файла
                 index_col = 'PassengerId') #Колонка PassangerId задаёт нумерацию 
                 #строк этого датафрейма
 

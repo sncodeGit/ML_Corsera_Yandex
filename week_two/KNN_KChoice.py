@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('../Downloads/wine.data', header=None) #Считываем файл как датафрейм
+df = pd.read_csv('../data/wine.data', header=None) #Считываем файл как датафрейм
 #header=None - нет заголовков для столбцов 
 
 clsDF = df[0] #Метки класса (первый столбец)

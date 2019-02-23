@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('../Downloads/titanic.csv', index_col = 'PassengerId')
+df = pd.read_csv('../data/titanic.csv', index_col = 'PassengerId')
 
 delColumns = ['SibSp', 'Parch'] #Создать список
 df = df.drop(delColumns, axis=1) #Удалить по списку
